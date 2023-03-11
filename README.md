@@ -10,6 +10,8 @@ To work as a Barrier to all false key generated in Virtual and Electronic Asset
 
 # Results
 The final Comparitive Results is shown in below table
+
+
 | Algorithms / Evaluation Metrics | Mean Absolute Error (MAE) | Mean Squared Error (MSE) | Mean Absolute Percentage Error (MAPE) | Mean Relative Error (MRE) | Root Mean Squared Error (RMSE) | R2 Score |
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | XGBoost Regressor | 2.7962 | 79.027 |	21376.138 |	0.0290 | 8.88975  | 0.9963 |
