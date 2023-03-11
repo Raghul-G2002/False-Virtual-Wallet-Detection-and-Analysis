@@ -12,7 +12,7 @@ To work as a Barrier to all false key generated in Virtual and Electronic Asset
 The final Comparitive Results is shown in below table
 
 | Evaluation Metrics | MAE | MSE | MAPE | MRE | RMSE | R2 Score |
-------------------------------------------------------------------------------
+| -------------------|-----|-----|------|-----|------|----------|
 | XGBoost Regressor | 2.7962 | 79.027 | 21376.138 | 0.0290 | 8.88975 | 0.9963 |
 | LSTM 	| 32.5534 | 5124.4740 | 700714.59 | 0.78012 | 71.5854 | 0.76322 |
 | Conjugated LSTM with RNN	33.8529	5618.1730	296144.242	0.81986	74.9544	0.74045
