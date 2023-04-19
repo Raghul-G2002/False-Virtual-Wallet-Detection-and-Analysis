@@ -1,6 +1,9 @@
 # False-Virtual-Wallet-Detection-and-Analysis
-Project Main Scope
-To work as a Barrier to all false key generated in Virtual and Electronic Asset
+This project aims to detect 11 types of false Crypto keys using LSTM and Conjugated LSTM models. The models were trained on a large dataset of Crypto keys, and the results showed that the LSTM model achieved a final accuracy of 90%, while the Conjugated LSTM model had an accuracy of 86%, which is better than other models suggested.
+
+The models were also used to forecast the future volume of Crypto transactions. The results showed that both LSTM and Conjugated LSTM models were able to accurately predict the future volume of Crypto transactions, based on historical data.
+
+Overall, this project demonstrates the effectiveness of using LSTM and Conjugated LSTM models for detecting false Crypto keys and forecasting future Crypto transaction volumes. The findings of this project can be useful in improving the security of Crypto transactions and making better decisions regarding future Crypto investments.
 
 ## Architecture Diagram: False Key Analysis
 ![image](https://user-images.githubusercontent.com/83855692/224467866-3878453c-b11f-4995-9df1-bcde7b4c01da.png)
@@ -19,6 +22,12 @@ The final Comparitive Results is shown in below table
 | Conjugated LSTM with Bi-directional RNN | 52.3152 | 18886.07 | 203681.2 | 0.6565 | 137.4266 | 0.12737 |
 | Conjugated LSTM with CNN | 21.5005 | 2869.269 | 102855.467 | 0.42172 | 53.5655 | 0.90331 |
 
+![result1](https://user-images.githubusercontent.com/83855692/233098523-48daf062-2802-4c62-92ba-af7ac8e49abf.png)
+![result2](https://user-images.githubusercontent.com/83855692/233098592-91059001-1299-414e-8cfb-a02cdcd1eed2.png)
+![result3](https://user-images.githubusercontent.com/83855692/233098646-7402a94b-01e7-48d9-85fa-561fa047b491.png)
+![result4](https://user-images.githubusercontent.com/83855692/233098677-066c9c89-d59e-4687-8839-84e6156cb644.png)
+![result5](https://user-images.githubusercontent.com/83855692/233098702-8d81adfd-a29e-474d-8081-9a698777f027.png)
+![result6](https://user-images.githubusercontent.com/83855692/233098420-15e5c7a6-9b14-4521-a1d3-b928c8dbb812.png)
 
 
 # Requirements
